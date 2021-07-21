@@ -35,14 +35,13 @@ public class VowelCounter {
 						non_vowel++;
 					}
 				}
-				
-	System.out.println("Enter your name: ");  //that included vowels and consonants
 			System.out.println("a: " + a);
 			System.out.println("e: " + e);
 			System.out.println("i: " + i);
 			System.out.println("o: " + o); 
 			System.out.println("u: " + u);  
 			System.out.println("Number of non vowels: " + non_vowel);
+			
 	scan.close();
 	}
 
