@@ -10,13 +10,16 @@ public class Box {
 		objBox.printBox();			
 		}
 		public void printBox() {
-		for (int coloumn = 1; coloumn <= size; coloumn++) {
-		for (int star = 1; star <= coloumn; star++) {
-		System.out.print("*");
+			final int MAX_ROWS = 5;
+			 for (int row = 1; row <= MAX_ROWS; row++)
+			 {
+			 for (int star = 1; star <= row; star++)
+			 System.out.print("*");
+			 System.out.println();
 	    }
-		System.out.println();
+		
 	}
   }
 
-}
+
 
